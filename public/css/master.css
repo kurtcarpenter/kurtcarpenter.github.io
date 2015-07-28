@@ -1,0 +1,26 @@
+header {
+  padding-left:240px;
+}
+.header-title {
+  font-size:3em;
+}
+.sidebar-item-desc {
+  padding-left:12px;
+  font-weight:600;
+  color:#999;
+}
+i.bio {
+  color:#29b6f6;
+}
+i.work {
+  color:#1de9b6;
+}
+i.skills {
+  color:#ff5252;
+}
+i.code {
+  color:#ffd600;
+}
+i.school {
+  color:#7e57c2;
+}
