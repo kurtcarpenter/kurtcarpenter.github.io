@@ -5,6 +5,9 @@ header, main, footer {
   header, main, footer {
     padding-left: 0;
   }
+  .header-title {
+    text-align: center;
+  }
 }
 nav.top-nav {
   height:128px;
@@ -14,6 +17,11 @@ nav.top-nav {
 }
 .header-title {
   font-size:3em;
+  margin-top:0;
+  margin-bottom:0;
+}
+.head-container {
+  width: 85% !important;
 }
 img.kc-image {
   width:64px;
@@ -25,7 +33,7 @@ img.kc-image {
 .button-collapse {
   font-size:32px;
   margin-left:0.5em;
-  margin-right:2em;
+  margin-right:1.5em;
 }
 .sidebar-item-desc {
   padding-left:12px;
