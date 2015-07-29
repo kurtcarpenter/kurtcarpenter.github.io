@@ -13,16 +13,19 @@
 
    <body>
      <header>
-       <nav class="top-nav cyan lighten-3">
+       <nav class="top-nav cyan lighten-2">
+         <a href="#" data-activates="sidebar-slide" class="button-collapse hide-on-large-only">
+           <i class="mdi-navigation-menu"></i>
+         </a>
          <div class="container">
            <div class="nav-wrapper">
              <a class="header-title">Kurt Carpenter</a>
            </div>
          </div>
        </nav>
-       <div class="side-nav fixed">
-         <div>
-           <a class="brand-logo"></a>
+       <ul id="sidebar-slide" class="side-nav fixed">
+         <div class="top-corner-branding valign-wrapper">
+           <a class="brand-logo valign"><img class="kc-image" src="public/img/kc.png"></img></a>
          </div>
          <a class="waves-effect waves-green active">
            <i class="material-icons bio">face</i>
@@ -44,7 +47,7 @@
            <i class="material-icons school">school</i>
            <span class="sidebar-item-desc">Education</span>
          </a>
-       </div>
+       </ul>
      </header>
      <main>
      </main>
@@ -53,5 +56,6 @@
      <!--Import jQuery before materialize.js-->
      <script type="text/javascript" src="public/bower_components/jquery/dist/jquery.min.js"></script>
      <script type="text/javascript" src="public/bower_components/materialize/dist/js/materialize.min.js"></script>
+     <script type="text/javascript" src="public/js/index.js"></script>
    </body>
  </html>
