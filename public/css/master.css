@@ -16,7 +16,7 @@ nav.top-nav {
   height:128px;
 }
 .header-title {
-  font-size:3em;
+  font-size:3.5em;
   margin-top:0;
   margin-bottom:0;
 }
@@ -33,7 +33,6 @@ img.kc-image {
 .button-collapse {
   font-size:32px;
   margin-left:0.5em;
-  margin-right:1.5em;
 }
 .sidebar-item-desc {
   padding-left:12px;
@@ -54,4 +53,33 @@ i.code {
 }
 i.school {
   color:#7e57c2;
+}
+.gatech-img-holder {
+  height:325px;
+  overflow:hidden;
+}
+.gatech-img {
+  transform:scale(1);
+  transform-origin:left top;
+  margin-top:-25%;
+}
+.card-subtitle {
+  font-size:18px;
+  margin-top:4px;
+  margin-bottom:4px;
+}
+.card-text {
+  padding:20px;
+  font-weight:300;
+}
+
+.section-header {
+  background-color:#ABDAAD;
+  height:128px;
+}
+.section-title {
+  color:white;
+}
+.container-85 {
+  width:85% !important;
 }
