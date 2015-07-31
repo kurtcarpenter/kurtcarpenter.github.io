@@ -9,6 +9,18 @@ header, main, footer {
     text-align: center;
   }
 }
+@media only screen and (max-width : 600px) {
+  .gatech-img {
+    transform: scale(1.75);
+    transform-origin:left top;
+  }
+}
+@media only screen and (max-width : 800px) {
+  .gatech-img {
+    transform: scale(1.325);
+    transform-origin:left top;
+  }
+}
 nav.top-nav {
   height:128px;
 }
@@ -59,8 +71,6 @@ i.school {
   overflow:hidden;
 }
 .gatech-img {
-  transform:scale(1);
-  transform-origin:left top;
   margin-top:-25%;
 }
 .card-subtitle {
