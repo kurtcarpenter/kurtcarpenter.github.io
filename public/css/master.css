@@ -9,6 +9,7 @@ header, main, footer {
     text-align: center;
   }
 }
+/*Begin the Tech Tower image responsiveness*/
 @media only screen and (max-width : 600px) {
   .gatech-img {
     transform: scale(1.75);
@@ -21,6 +22,14 @@ header, main, footer {
     transform-origin:left top;
   }
 }
+@media only screen and (max-width : 543px) {
+  .gatech-img {
+    transform: scale(1.9);
+    transform-origin:left top;
+  }
+}
+/*Point of mess-up is at 340px width*/
+/*It's over... finally*/
 nav.top-nav {
   height:128px;
 }
@@ -81,6 +90,10 @@ i.school {
 .card-text {
   padding:20px;
   font-weight:300;
+}
+
+.ability-card {
+  color:black !important;
 }
 
 .section-header {
