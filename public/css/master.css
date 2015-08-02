@@ -44,6 +44,11 @@ nav.top-nav {
 .head-container {
   width: 85% !important;
 }
+.logo-text {
+  color: white;
+  margin-left: 24px;
+  font-weight: 200;
+}
 img.kc-image {
   width:64px;
   vertical-align: middle;
@@ -93,6 +98,7 @@ i.school {
 }
 .gatech-img {
   margin-top:-25%;
+  cursor: pointer;
 }
 .card-subtitle {
   font-size:18px;
