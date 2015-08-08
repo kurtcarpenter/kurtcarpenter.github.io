@@ -147,22 +147,36 @@
          </div>
          <section id="cd-timeline" class="cd-container">
        		<div class="cd-timeline-block">
-       			<div class="cd-timeline-img cd-picture">
-       				<img src="img/cd-icon-picture.svg" alt="Picture">
+       			<div class="cd-timeline-img teal">
+       				<i class="material-icons white-text">work</i>
        			</div> <!-- cd-timeline-img -->
 
        			<div class="cd-timeline-content">
        				<h2>Manhattan Associates</h2>
        				<p>Co-op at Manhattan Associates, an industry-leading supplier of
                 supply chain management software</p>
-       				<a href="#0" class="cd-read-more">Read more</a>
+       				<a class="btn-flat green lighten-3 black-text modal-trigger" href="#modal-manh">Details</a>
        				<span class="cd-date">Summer 2015</span>
        			</div> <!-- cd-timeline-content -->
+            <div id="modal-manh" class="modal">
+              <div class="modal-content">
+                <div class="modal-title">
+                  <i class="material-icons right modal-action modal-close">close</i>
+                  <h4>Manhattan Associates</h4>
+                  <h5>Co-op &mdash; R&D Architecture</h5>
+                </div>
+                <p>Field testing &mdash; architecture and coding of
+                  enterprise-grade web application testing proprietary
+                  identity provider</p>
+                <p>Docker &mdash; sample applications, registry/repository
+                  product evaluation, registry POC using Microsoft Azure</p>
+              </div>
+            </div>
        		</div> <!-- cd-timeline-block -->
 
        		<div class="cd-timeline-block">
-       			<div class="cd-timeline-img cd-movie">
-       				<img src="img/cd-icon-movie.svg" alt="Movie">
+       			<div class="cd-timeline-img indigo">
+       				<i class="material-icons white-text">school</i>
        			</div> <!-- cd-timeline-img -->
 
        			<div class="cd-timeline-content">
@@ -170,14 +184,13 @@
        				<p>First semester at the internationally-recognized Georgia
                 Institute of Technology, pursuing a Bachelor of Science in
                 Computer Science</p>
-       				<a href="#0" class="cd-read-more">Read more</a>
        				<span class="cd-date">Fall 2014</span>
        			</div> <!-- cd-timeline-content -->
        		</div> <!-- cd-timeline-block -->
 
        		<div class="cd-timeline-block">
-       			<div class="cd-timeline-img cd-picture">
-       				<img src="img/cd-icon-picture.svg" alt="Picture">
+       			<div class="cd-timeline-img teal">
+       				<i class="material-icons white-text">work</i>
        			</div> <!-- cd-timeline-img -->
 
        			<div class="cd-timeline-content">
@@ -185,37 +198,64 @@
        				<p>Intern at GE Aviation, a world-leading provider of jet engines,
                  components and integrated systems for commercial and military
                  aircraft</p>
-       				<a href="#0" class="cd-read-more">Read more</a>
+       				<a class="btn-flat green lighten-3 black-text modal-trigger" href="#modal-ge">Details</a>
        				<span class="cd-date">Summer 2014</span>
        			</div> <!-- cd-timeline-content -->
+            <div id="modal-ge" class="modal">
+              <div class="modal-content">
+                <div class="modal-title">
+                  <i class="material-icons right modal-action modal-close">close</i>
+                  <h4>General Electric Aviation</h4>
+                  <h5>Intern &mdash; Aviation Enterprise Architecture</h5>
+                </div>
+                <p>Static code analysis &mdash; POC of SonarQube server for
+                  cross-business usage, identified 2000 days of technical debt
+                  across 50,000+ LOC</p>
+                <p>Data services &mdash; identified data services for
+                  consolidation and cross-source collaboration, streamlined
+                  development process via documentation</p>
+              </div>
+            </div>
        		</div> <!-- cd-timeline-block -->
 
        		<div class="cd-timeline-block">
-       			<div class="cd-timeline-img cd-location">
-       				<img src="img/cd-icon-location.svg" alt="Location">
+       			<div class="cd-timeline-img indigo">
+       				<i class="material-icons white-text">school</i>
        			</div> <!-- cd-timeline-img -->
 
        			<div class="cd-timeline-content">
        				<h2>Lakota West High School</h2>
        				<p>Graduate from Lakota West High School</p>
-       				<a href="#0" class="cd-read-more">Read more</a>
        				<span class="cd-date">Spring 2014</span>
        			</div> <!-- cd-timeline-content -->
        		</div> <!-- cd-timeline-block -->
 
        		<div class="cd-timeline-block">
-       			<div class="cd-timeline-img cd-location">
-       				<img src="img/cd-icon-location.svg" alt="Location">
+       			<div class="cd-timeline-img teal">
+       				<i class="material-icons white-text">work</i>
        			</div> <!-- cd-timeline-img -->
 
        			<div class="cd-timeline-content">
        				<h2>Ascendum Solutions</h2>
        				<p>Intern at Ascendum Solutions, a global IT solutions company
-                that works with SMBs and enterprise level organizations,
-                including many Fortune 1000 companies</p>
-       				<a href="#0" class="cd-read-more">Read more</a>
+                that works with SMBs and enterprise level organizations</p>
+       				<a class="btn-flat green lighten-3 black-text modal-trigger" href="#modal-asc">Details</a>
        				<span class="cd-date">Summer 2013</span>
        			</div> <!-- cd-timeline-content -->
+            <div id="modal-asc" class="modal">
+              <div class="modal-content">
+                <div class="modal-title">
+                  <i class="material-icons right modal-action modal-close">close</i>
+                  <h4>Ascendum Solutions</h4>
+                  <h5>Intern &mdash; Custom Application Development</h5>
+                </div>
+                <p>Client delivery portal &mdash; architecture and coding of
+                  SharePoint delivery portal; currently in use for numerous
+                  client projects</p>
+                <p>OAuth &mdash; POC of authentication with social media
+                  accounts</p>
+              </div>
+            </div>
        		</div> <!-- cd-timeline-block -->
        	</section> <!-- cd-timeline -->
        </section>
@@ -263,7 +303,11 @@
      <footer>
      </footer>
      <!--Import jQuery before materialize.js-->
-     <script type="text/javascript" src="public/bower_components/jquery/dist/jquery.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+     <script>if (typeof jQuery === 'undefined') {
+       //Google ajax CDN fallback
+       document.write(unescape('%3Cscript%20src%3D%22public/bower_components/jquery/dist/jquery.min.js%22%3E%3C/script%3E'));
+     }</script>
      <script type="text/javascript" src="public/bower_components/materialize/dist/js/materialize.min.js"></script>
      <!--Main JS-->
      <script type="text/javascript" src="public/js/index.js"></script>
