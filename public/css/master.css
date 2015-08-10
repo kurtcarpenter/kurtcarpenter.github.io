@@ -128,3 +128,6 @@ i.school {
 .modal-title {
   margin-bottom:2.2em;
 }
+.cd-timeline-content > .modal-trigger {
+  float:right;
+}
