@@ -137,3 +137,7 @@ i.website-icon {
 .about-subheader {
   font-size:1.4em;
 }
+
+.cd-timeline-content > .modal-trigger {
+  float:right;
+}
