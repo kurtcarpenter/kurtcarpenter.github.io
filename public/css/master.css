@@ -63,7 +63,7 @@ img.kc-image {
 .sidebar-item-desc {
   padding-left:12px;
   font-weight:600;
-  color:#999;
+  color:#555;
 }
 .side-nav .active {
   /*cyan darken-1*/
@@ -90,7 +90,12 @@ i.code {
   color:#ffd600;
 }
 i.school {
+  color:#00263a;
+}
+i.website-icon {
+  font-size:128px;
   color:#7e57c2;
+  width:100%;
 }
 .gatech-img-holder {
   height:325px;
@@ -127,4 +132,8 @@ i.school {
 
 .modal-title {
   margin-bottom:2.2em;
+}
+
+.about-subheader {
+  font-size:1.4em;
 }

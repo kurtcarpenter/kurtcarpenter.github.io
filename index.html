@@ -16,7 +16,7 @@
  </head>
 
 <body data-spy="scroll" data-target="#sidebar-slide">
-  <header>
+  <header id="about" class="scrollspy">
     <nav class="top-nav cyan darken-1 valign-wrapper">
       <a href="#" data-activates="sidebar-slide" class="button-collapse hide-on-large-only">
         <i class="mdi-navigation-menu"></i>
@@ -33,7 +33,7 @@
         <!--<a class="brand-logo valign"><img class="kc-image" src="public/img/kc.png"></img></a>-->
       </div>
       <a class="waves-effect waves-green active" href="#about">
-        <i class="material-icons bio">face</i>
+        <i class="material-icons bio">person</i>
         <span class="sidebar-item-desc">About Me</span>
       </a>
       <a class="waves-effect waves-green" href="#abilities">
@@ -56,14 +56,32 @@
   </header>
 
   <main>
-    <section id="about" class="scrollspy">
-      <div class="section-header valign-wrapper">
-        <div class="container container-85">
-          <h3 class="section-title valign">About Me</h3>
+    <!--About-->
+    <section>
+      <div class="container container-85">
+        <h4 class="grey-text about-header">Developer. Designer.</h4>
+        <p class="grey-text about-subheader">Full-stack development. Student at Georgia Tech studying Computer Science.</p>
+        <div class="row">
+          <div class="col s6 m4 l3">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light activator">
+                <i class="material-icons website-icon center-align">web</i>
+              </div>
+              <div class="card-content blue-grey darken-2 white-text">
+                <span class="card-title activator ">This site<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">About this site<i class="material-icons right">close</i></span>
+                <p>This site was built by Kurt Carpenter as a dynamic resume.
+                  It uses the Materialize framework and the CodyHouse Vertical
+                  Timeline library.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    
+
     <section id="abilities" class="scrollspy">
       <div class="section-header valign-wrapper">
         <div class="container container-85">
