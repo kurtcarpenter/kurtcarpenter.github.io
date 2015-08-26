@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <title>Kurt Carpenter</title>
-
-   <!--Master CSS-->
-   <link type="text/css" rel="stylesheet" href="public/css/master.css" />
-   <!--Import materialize.css-->
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   <link type="text/css" rel="stylesheet" href="public/bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
-   <!--Vertical-Timeline-->
-   <link rel="stylesheet" href="public/bower_components/vertical-timeline/css/style.css"> <!-- Resource style -->
-   <script src="public/bower_components/vertical-timeline/js/modernizr.js"></script> <!-- Modernizr -->
-   <!--Let browser know website is optimized for mobile-->
-   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-   <meta charset="UTF-8">
- </head>
+<head>
+  <title>Kurt Carpenter</title>
+  <!--Master CSS-->
+  <link type="text/css" rel="stylesheet" href="public/css/master.css" />
+  <!--Import materialize.css-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="public/bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+  <!--Vertical-Timeline-->
+  <link rel="stylesheet" href="public/bower_components/vertical-timeline/css/style.css"> <!-- Resource style -->
+  <script src="public/bower_components/vertical-timeline/js/modernizr.js"></script> <!-- Modernizr -->
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+</head>
 
 <body data-spy="scroll" data-target="#sidebar-slide">
   <header id="about" class="scrollspy">
@@ -28,10 +27,9 @@
         </div>
       </div>
     </nav>
-    <ul id="sidebar-slide" class="side-nav fixed">
+    <div id="sidebar-slide" class="side-nav fixed">
       <div class="top-corner-branding valign-wrapper">
         <span class="valign logo-text header-title">KC</span>
-        <!--<a class="brand-logo valign"><img class="kc-image" src="public/img/kc.png"></img></a>-->
       </div>
       <a class="waves-effect waves-green active" href="#about">
         <i class="material-icons bio">person</i>
@@ -53,41 +51,29 @@
         <i class="material-icons school">school</i>
         <span class="sidebar-item-desc">Education</span>
       </a>
-    </ul>
+      <ul class="contact-list cyan darken-1 valign-wrapper">
+        <a href="mailto:me@kurtcarpenter.io" title="Email" class="valign z-depth-1 hoverable cyan lighten-1">
+          <i class="material-icons">mail</i>
+        </a>
+        <a href="res/CARPENTER_KURT_RESUME.pdf" target="_blank" title="Résumé" class="valign z-depth-1 hoverable cyan lighten-1">
+          <i class="material-icons">description</i>
+        </a>
+        <a href="https://github.com/kurtcarpenter"  target="_blank"title="GitHub" class="valign z-depth-1 hoverable cyan lighten-1">
+          <img src="public/img/GitHub-Mark-Light-32px.png"></img>
+        </a>
+      </ul>
+    </div>
   </header>
 
   <main>
     <!--About-->
     <section>
       <div class="container container-85">
-        <h4 class="grey-text about-header">Developer. Designer.</h4>
-        <p class="grey-text about-subheader">Full-stack development. Student at Georgia Tech studying Computer Science.</p>
-        <div class="row">
-          <div class="col s6 m4 l3">
-            <div class="card-panel teal white-text">
-              This site was built by Kurt Carpenter as a dynamic resume.
-                It uses the Materialize framework and the CodyHouse Vertical
-                Timeline library.
-            </div>
-          </div>
-          <div class="col s6 m4 l3">
-            <a href="res/CARPENTER_KURT_RESUME.pdf">
-              <div class="card-panel teal white-text">
-                <h5>Paper résumé</h5>
-              </div>
-            </a>
-          </div>
-          <div class="col s6 m4 l3">
-            <div class="card-panel teal white-text">
-              <p>kcarpenter33@gatech.edu</p>
-            </div>
-          </div>
-          <div class="col s6 m4 l3">
-              <div class="card-panel teal white-text">
-                <p>github.com/kurtcarpenter</p>
-              </div>
-          </div>
-        </div>
+        <h4 class="grey-text about-header">Development meets Design.</h4>
+        <p class="grey-text about-subheader">full-stack <span class="indigo-text">developer</span>.
+          <span class="teal-text">ux</span> aficionado.
+          <span class="cyan-text">avid</span> learner.
+          technology <span class="blue-grey-text">enthusiast.</span></p>
       </div>
     </section>
 
@@ -99,71 +85,92 @@
       </div>
       <div class="row">
         <div class="col s6 m4 l3">
-          <div class="card hoverable ability-card">
+          <div class="card blue-grey lighten-1 hoverable ability-card">
             <div class="card-image waves-effect waves-light">
-              <img class="activator" src="public/img/nodejs.png"></img>
+              <img class="activator" src="public/img/angularjs.png"></img>
             </div>
             <div class="card-content">
-              <span class="card-title activator black-text">Node.js<i class="material-icons right">more_vert</i></span>
+              <span class="card-title activator white-text">AngularJS<i class="material-icons right">more_vert</i></span>
             </div>
             <div class="card-reveal">
-              <span class="card-title black-text">Node.js<i class="material-icons right">close</i></span>
+              <span class="card-title black-text">AngularJS<i class="material-icons right">close</i></span>
               <p class="card-subtitle">Experience: moderate</span>
               <div class="card-text">
-                This is card text
+                Developed front-ends for healthcare-related application, testing application, and more
               </div>
             </div>
           </div>
         </div>
         <div class="col s6 m4 l3">
-          <div class="card hoverable ability-card">
+          <div class="card blue-grey lighten-1 hoverable ability-card">
             <div class="card-image waves-effect waves-light">
               <img class="activator" src="public/img/nodejs.png"></img>
             </div>
             <div class="card-content">
-              <span class="card-title activator black-text">Node.js<i class="material-icons right">more_vert</i></span>
+              <span class="card-title activator white-text">Node.js<i class="material-icons right">more_vert</i></span>
             </div>
             <div class="card-reveal">
               <span class="card-title black-text">Node.js<i class="material-icons right">close</i></span>
-              <p class="card-subtitle">Experience: moderate</span>
+              <p class="card-subtitle">Experience: proficient</span>
               <div class="card-text">
-                This is card text
+                Experience writing large, multi-faceted JavaScript web applications
               </div>
             </div>
           </div>
         </div>
         <div class="col s6 m4 l3">
-          <div class="card hoverable ability-card">
+          <div class="card blue-grey lighten-1 hoverable ability-card">
             <div class="card-image waves-effect waves-light">
-              <img class="activator" src="public/img/nodejs.png"></img>
+              <img class="activator" src="public/img/spring.png"></img>
             </div>
             <div class="card-content">
-              <span class="card-title activator black-text">Node.js<i class="material-icons right">more_vert</i></span>
+              <span class="card-title activator white-text">Spring<i class="material-icons right">more_vert</i></span>
             </div>
             <div class="card-reveal">
-              <span class="card-title black-text">Node.js<i class="material-icons right">close</i></span>
+              <span class="card-title black-text">Spring<i class="material-icons right">close</i></span>
               <p class="card-subtitle">Experience: moderate</span>
               <div class="card-text">
-                This is card text
+                Experience writing enterprise-grade Java web applications
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="divider"></div>
+      <div class="row">
         <div class="col s6 m4 l3">
-          <div class="card hoverable ability-card">
-            <div class="card-image waves-effect waves-light">
-              <img class="activator" src="public/img/nodejs.png"></img>
-            </div>
-            <div class="card-content">
-              <span class="card-title activator black-text">Node.js<i class="material-icons right">more_vert</i></span>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title black-text">Node.js<i class="material-icons right">close</i></span>
-              <p class="card-subtitle">Experience: moderate</span>
-              <div class="card-text">
-                This is card text
-              </div>
-            </div>
+          <div class="card-panel teal lighten-2">
+            <h2 class="white-text center-align">Java</h2>
+          </div>
+        </div>
+        <div class="col s6 m4 l3">
+          <div class="card-panel teal lighten-2">
+            <h2 class="white-text center-align">C#</h2>
+          </div>
+        </div>
+        <div class="col s6 m4 l3">
+          <div class="card-panel teal lighten-2">
+            <h2 class="white-text center-align">C</h2>
+          </div>
+        </div>
+        <div class="col s6 m4 l3">
+          <div class="card-panel teal lighten-2">
+            <h2 class="white-text center-align">Python</h2>
+          </div>
+        </div>
+        <div class="col s6 m4 l3">
+          <div class="card-panel teal lighten-2">
+            <h2 class="white-text center-align">HTML</h2>
+          </div>
+        </div>
+        <div class="col s6 m4 l3">
+          <div class="card-panel teal lighten-2">
+            <h2 class="white-text center-align">CSS</h2>
+          </div>
+        </div>
+        <div class="col s6 m4 l3">
+          <div class="card-panel teal lighten-2">
+            <h2 class="white-text center-align">JS</h2>
           </div>
         </div>
       </div>

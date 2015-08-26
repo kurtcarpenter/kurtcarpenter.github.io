@@ -49,10 +49,6 @@ nav.top-nav {
   margin-left: 24px;
   font-weight: 200;
 }
-img.kc-image {
-  width:64px;
-  vertical-align: middle;
-}
 .top-corner-branding {
   background-color:#ABDAAD;
 }
@@ -97,6 +93,34 @@ i.website-icon {
   color:#7e57c2;
   width:100%;
 }
+.contact-list {
+  height:64px;
+}
+.contact-list > a {
+  display: inline-block !important;
+  width: 48px !important;
+  height: 48px !important;
+  border-radius: 48px;
+  border: 1px solid white;
+  /*background-color: #DDD;*/
+  background: none !important;
+  margin-left: 22px;
+  color: white !important;
+  padding-left: 10px !important;
+  transition: width 0.5s, height 0.5s;
+}
+.contact-list > a:hover {
+}
+.contact-list i {
+  font-size: 2em;
+  line-height: 46px;
+  margin-left: -1px;
+}
+.contact-list img {
+  vertical-align: sub;
+  margin-left:-2px;
+}
+
 .gatech-img-holder {
   height:325px;
   overflow:hidden;
