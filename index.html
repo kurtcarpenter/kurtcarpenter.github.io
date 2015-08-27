@@ -16,17 +16,7 @@
 </head>
 
 <body data-spy="scroll" data-target="#sidebar-slide">
-  <header id="about" class="scrollspy">
-    <nav class="top-nav cyan darken-1 valign-wrapper">
-      <a href="#" data-activates="sidebar-slide" class="button-collapse hide-on-large-only">
-        <i class="mdi-navigation-menu"></i>
-      </a>
-      <div class="container head-container">
-        <div class="nav-wrapper">
-          <p class="header-title"><b>K</b>urt <b>C</b>arpenter</p>
-        </div>
-      </div>
-    </nav>
+  <header>
     <div id="sidebar-slide" class="side-nav fixed">
       <div class="top-corner-branding valign-wrapper">
         <span class="valign logo-text header-title">KC</span>
@@ -67,13 +57,23 @@
 
   <main>
     <!--About-->
-    <section>
+    <section id="about" class="scrollspy">
+      <nav class="top-nav cyan darken-1 valign-wrapper">
+        <a href="#" data-activates="sidebar-slide" class="button-collapse hide-on-large-only">
+          <i class="mdi-navigation-menu"></i>
+        </a>
+        <div class="container head-container">
+          <div class="nav-wrapper">
+            <p class="header-title"><b>K</b>urt <b>C</b>arpenter</p>
+          </div>
+        </div>
+      </nav>
       <div class="container container-85">
-        <h4 class="grey-text about-header">Development meets Design.</h4>
-        <p class="grey-text about-subheader">full-stack <span class="indigo-text">developer</span>.
-          <span class="teal-text">ux</span> aficionado.
-          <span class="cyan-text">avid</span> learner.
-          technology <span class="blue-grey-text">enthusiast.</span></p>
+        <h4 class="white-text about-header">Development meets Design</h4>
+        <p class="white-text about-subheader">full-stack <span class="cyan-text">developer</span>.
+          <span class="cyan-text">ux</span> aficionado.
+          technology <span class="cyan-text">enthusiast.</span>
+          <span class="cyan-text">avid</span> learner.</p>
       </div>
     </section>
 
@@ -150,12 +150,7 @@
         </div>
         <div class="col s6 m4 l3">
           <div class="card-panel teal lighten-2">
-            <h2 class="white-text center-align">C</h2>
-          </div>
-        </div>
-        <div class="col s6 m4 l3">
-          <div class="card-panel teal lighten-2">
-            <h2 class="white-text center-align">Python</h2>
+            <h2 class="white-text center-align">JS</h2>
           </div>
         </div>
         <div class="col s6 m4 l3">
@@ -170,7 +165,12 @@
         </div>
         <div class="col s6 m4 l3">
           <div class="card-panel teal lighten-2">
-            <h2 class="white-text center-align">JS</h2>
+            <h2 class="white-text center-align">Python</h2>
+          </div>
+        </div>
+        <div class="col s6 m4 l3">
+          <div class="card-panel teal lighten-2">
+            <h2 class="white-text center-align">C</h2>
           </div>
         </div>
       </div>
@@ -190,7 +190,7 @@
 
    			<div class="cd-timeline-content">
    				<h2>Manhattan Associates</h2>
-   				<p>Co-op at Manhattan Associates, an industry-leading supplier of
+   				<p>Co-oped at Manhattan Associates, an industry-leading supplier of
             supply chain management software</p>
    				<a class="btn-flat green lighten-3 black-text modal-trigger" href="#modal-manh">Details</a>
    				<span class="cd-date">Summer 2015</span>
@@ -218,7 +218,7 @@
 
    			<div class="cd-timeline-content">
    				<h2>Georgia Institute of Technology</h2>
-   				<p>First semester at the internationally-recognized Georgia
+   				<p>Enrolled at the internationally-recognized Georgia
             Institute of Technology, pursuing a Bachelor of Science in
             Computer Science</p>
    				<span class="cd-date">Fall 2014</span>
@@ -232,7 +232,7 @@
 
    			<div class="cd-timeline-content">
    				<h2>General Electric Aviation</h2>
-   				<p>Intern at GE Aviation, a world-leading provider of jet engines,
+   				<p>Interned at GE Aviation, a world-leading provider of jet engines,
              components and integrated systems for commercial and military
              aircraft</p>
    				<a class="btn-flat green lighten-3 black-text modal-trigger" href="#modal-ge">Details</a>
@@ -262,7 +262,7 @@
 
    			<div class="cd-timeline-content">
    				<h2>Lakota West High School</h2>
-   				<p>Graduate from Lakota West High School</p>
+   				<p>Graduated from Lakota West High School</p>
    				<span class="cd-date">Spring 2014</span>
    			</div> <!-- cd-timeline-content -->
    		</div> <!-- cd-timeline-block -->
@@ -274,7 +274,7 @@
 
    			<div class="cd-timeline-content">
    				<h2>Ascendum Solutions</h2>
-   				<p>Intern at Ascendum Solutions, a global IT solutions company
+   				<p>Interned at Ascendum Solutions, a global IT solutions company
             that works with SMBs and enterprise level organizations</p>
    				<a class="btn-flat green lighten-3 black-text modal-trigger" href="#modal-asc">Details</a>
    				<span class="cd-date">Summer 2013</span>
@@ -302,6 +302,38 @@
        <div class="container container-85">
          <h3 class="section-title valign">Portfolio</h3>
        </div>
+     </div>
+     <div class="container container-85">
+       <div class="row">
+         <div class="col s12 grey-text">
+           <h3>Coming Soon!</h3>
+           <h5>For specific examples, please contact me via email</h5>
+         </div>
+       </div>
+       <div class="row">
+          <div class="col s6 m4">
+            <div class="card">
+              <div class="card-content black-text">
+                <span class="card-title black-text">Code Samples</span>
+                <p></p>
+              </div>
+              <div class="card-action">
+                <a>Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s6 m4">
+            <div class="card">
+              <div class="card-content black-text">
+                <span class="card-title black-text">Design Samples</span>
+                <p></p>
+              </div>
+              <div class="card-action">
+                <a>Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
      </div>
    </section>
 
@@ -340,7 +372,36 @@
    </section>
   </main>
 
-  <footer>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s6 m4 grey-text text-lighten-3">
+          <h3>This Site</h3>
+          <p>I built this site using the
+            <a href="http://materializecss.com/">Materialize</a> framework;
+            special thanks to their team for a great take on Material Design</p>
+          <p>Thanks as well to the devs at CodyHouse for the
+            <a href="http://codyhouse.co/gem/vertical-timeline/">
+            Vertical Timeline</a> library</p>
+          <p>Cover art: "Deep Tron" by Dominic Fontana</p>
+        </div>
+        <div class="col offset-s1 s5 grey-text text-lighten-3">
+          <h3>Contact</h3>
+          <ul>
+            <li><span>me@kurtcarpenter.io</span></li>
+            <li><a href="https://github.com/kurtcarpenter" target="_blank">github.com/kurtcarpenter</a></li>
+            <li><a href="res/CARPENTER_KURT_RESUME.pdf" target="_blank">Résumé</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-copyright">
+      <div class="container">
+        <span>© 2015 Kurt Carpenter, all rights reserved</span>
+        <span class="grey-text text-lighten-4 right">Hello from Atlanta and Cincinnati!</span>
+      </div>
+    </div>
   </footer>
 
   <!--Import jQuery before materialize.js-->
