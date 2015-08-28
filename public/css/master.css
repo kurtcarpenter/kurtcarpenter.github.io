@@ -8,6 +8,15 @@ header, main, footer {
   .header-title {
     text-align: center;
   }
+  .header-subtitle {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media only screen and (max-width : 440px) {
+  .header-subtitle {
+    display:none;
+  }
 }
 
 nav.top-nav {
@@ -20,6 +29,14 @@ nav.top-nav {
   font-size:3.5em;
   margin-top:0;
   margin-bottom:0;
+}
+.header-subtitle {
+  font-size:1.5em;
+  vertical-align: bottom;
+  position:absolute;
+  margin-top: 4px;
+  margin-bottom:0px;
+  line-height: 1.2em;
 }
 .head-container {
   width: 85% !important;
