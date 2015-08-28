@@ -115,6 +115,7 @@ i.website-icon {
 
 section#about {
   height: 95vh;
+  min-height:300px;
 }
 .gatech-img-holder {
   height:325px;
@@ -133,9 +134,20 @@ section#about {
   padding:20px;
   font-weight:300;
 }
+@media only screen and (max-width : 418px) {
+  .card .card-title {
+    font-size: 18px !important;
+    font-weight: 400;
+  }
+}
 
 .ability-card {
   color:black !important;
+}
+@media only screen and (max-width : 600px) {
+  .languages h2 {
+    font-size: 3.0rem;
+  }
 }
 
 .section-header {
@@ -163,6 +175,12 @@ section#about {
 
 footer a {
   color: #32B9FB;
+}
+footer .contact-list li {
+  margin-top: 8px;
+}
+.footer-copyright .location {
+  float:right;
 }
 
 /*Begin the Tech Tower image responsiveness*/
