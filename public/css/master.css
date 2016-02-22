@@ -82,11 +82,7 @@ nav.top-nav {
   vertical-align: sub
 }
 #contact {
-  background-image: linear-gradient(90deg, #656565 0%, #475CD7 100%);
-  background-image: -moz-linear-gradient(left, #656565 0%, #475CD7 100%)
-  background-image: -webkit-linear-gradient(left, #656565 0%, #475CD7 100%);
-  background-image: -o-linear-gradient(left, #656565 0%, #475CD7 100%);
-  background-image: -ms-linear-gradient(left, #656565 0%, #475CD7 100%);
+  background-image: url('../img/keyboard.jpg');
   background-size: cover;
 }
 #contact > .container {
@@ -127,21 +123,25 @@ i.website-icon {
 }
 .contact-list {
   height: 64px;
+  margin-top: 25vh;
 }
 .contact-list a {
   display: inline-block !important;
   width: 64px !important;
   height: 64px !important;
   border-radius: 64px;
-  border: 1px solid white;
-  /*background-color: #DDD;*/
-  background: none !important;
+  border: 1px solid rgba(255,255,255,0.1);
+  background-color: rgba(255,255,255,0.04);
   margin-left: 32px;
   margin-right: 32px;
   color: white !important;
   padding-left: 17px !important;
   padding-top: 6px;
-  transition: width 0.5s, height 0.5s;
+  transition: width 0.5s, height 0.5s, background-color 1s;
+}
+.contact-list a:hover {
+  transition: background-color 1s;
+  background-color: rgba(255,255,255,0.01);
 }
 .contact-list i {
   font-size: 2em;
@@ -231,8 +231,14 @@ section#contact {
   font-size:1.4em;
 }
 
+.cd-timeline-content {
+  background: #eee !important;
+}
 .cd-timeline-content > .modal-trigger {
   float:right;
+}
+.cd-date {
+  color: white;
 }
 
 footer p {

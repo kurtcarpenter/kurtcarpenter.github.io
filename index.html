@@ -12,7 +12,7 @@
     Georgia Institute of Technology Class of 2018.">
 
   <!--Master CSS-->
-  <link type="text/css" rel="stylesheet" href="public/css/master.css" />
+  <link type="text/css" rel="stylesheet" href="public/css/master.min.css" />
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="public/bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -67,25 +67,25 @@
         <ul class="row contact-list valign-wrapper">
           <div class="col s3">
             <a href="mailto:me@kurtcarpenter.io" class="valign z-depth-1 hoverable tooltipped"
-                data-position="bottom" data-delay="50" data-tooltip="Email">
+                data-position="top" data-delay="50" data-tooltip="Email">
               <i class="material-icons">mail</i>
             </a>
           </div>
           <div class="col s3">
             <a href="https://github.com/kurtcarpenter"  target="_blank" class="valign z-depth-1 hoverable tooltipped"
-                data-position="bottom" data-delay="50" data-tooltip="GitHub">
+                data-position="top" data-delay="50" data-tooltip="GitHub">
               <img src="public/img/GitHub-Mark-Light-32px.png" style="margin-top: 8px"></img>
             </a>
           </div>
           <div class="col s3">
             <a href="https://www.linkedin.com/pub/kurt-carpenter/74/4b6/b60"  target="_blank" class="valign z-depth-1 hoverable tooltipped"
-                data-position="bottom" data-delay="50" data-tooltip="LinkedIn">
+                data-position="top" data-delay="50" data-tooltip="LinkedIn">
               <img src="public/img/In-White-28px-R.png" style="margin-top: 10px; margin-left: 1px;"></img>
             </a>
           </div>
           <div class="col s3">
-            <a href="res/CARPENTER_KURT_RESUME.pdf" target="_blank" class="valign z-depth-1 hoverable tooltipped"
-                data-position="bottom" data-delay="50" data-tooltip="Résumé">
+            <a href="res/CARPENTER_KURT_RESUME_WEB.pdf" target="_blank" class="valign z-depth-1 hoverable tooltipped"
+                data-position="top" data-delay="50" data-tooltip="Résumé">
               <i class="material-icons">description</i>
             </a>
           </div>
@@ -113,6 +113,23 @@
               <p class="card-subtitle">Experience: moderate</span>
               <div class="card-text">
                 Developed front-ends for healthcare-related application, testing application, and more
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s6 m4 l3">
+          <div class="card blue-grey lighten-1 hoverable ability-card">
+            <div class="card-image waves-effect waves-light">
+              <img class="activator" src="public/img/mongodb.jpg"></img>
+            </div>
+            <div class="card-content">
+              <span class="card-title activator white-text">MongoDB<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title black-text">MongoDB<i class="material-icons right">close</i></span>
+              <p class="card-subtitle">Experience: proficient</span>
+              <div class="card-text">
+                Past work with MongoDB for multiuser systems, content storage, and more
               </div>
             </div>
           </div>
@@ -192,7 +209,7 @@
       </div>
     </section>
 
-    <section id="experience" class="scrollspy light-blue lighten-5">
+    <section id="experience" class="scrollspy cyan darken-4">
       <div class="section-header valign-wrapper">
         <div class="container container-85">
           <h3 class="section-title valign">Experience</h3>
@@ -374,10 +391,10 @@
              <p class="card-subtitle">Bachelor of Science in Computer Science candidate</p>
              <p class="card-subtitle">2014 &mdash; present</p></span>
              <div class="card-text">
-               <li>On-track for Spring 2018 graduation</li>
-               <li>Classwork includes databases, objects and design, & assembly programming</li>
-               <li>Past classwork in Java & object-oriented programming</li>
-               <li>Projects include coding linear algebra functions, JavaFX applications, & more</li>
+               <li>Spring 2017 Graduation</li>
+               <li>Classwork includes databases, algorithms, OOP, C & assembly</li>
+               <li>Projects including modeling a processor/datapath, database implementation work,
+                  linear algebra functions, JavaFX applications, & more</li>
                &nbsp;
                <li>Affiliated with several student organizations; Yellow Jacket Archery Club, Georgia Tech Symphony Orchestra, intramural sports</li>
              </div>
@@ -405,7 +422,7 @@
           <ul>
             <li><a href="mailto:me@kurtcarpenter.io">me@kurtcarpenter.io</a></li>
             <li><a href="https://github.com/kurtcarpenter" target="_blank">GitHub</a></li>
-            <li><a href="res/CARPENTER_KURT_RESUME.pdf" target="_blank">Résumé</a></li>
+            <li><a href="res/CARPENTER_KURT_RESUME_WEB.pdf" target="_blank">Résumé</a></li>
             <li><a href="https://www.linkedin.com/pub/kurt-carpenter/74/4b6/b60" target="_blank">LinkedIn</a></li>
           </ul>
         </div>
@@ -428,14 +445,7 @@
   }</script>
   <script type="text/javascript" src="public/bower_components/materialize/dist/js/materialize.min.js"></script>
   <!--Main JS-->
-  <!--<script type="text/javascript" src="public/js/index.js"></script>-->
-  <script>
-    $(document).ready(function(){
-      $(".scrollspy").scrollSpy();
-      $(".modal-trigger").leanModal();
-      $(".button-collapse").sideNav();
-    });
-  </script>
+  <script type="text/javascript" src="public/js/index.min.js"></script>
   <!--Vertical-Timeline JS-->
   <script src="public/bower_components/vertical-timeline/js/modernizr.js"></script> <!-- Modernizr -->
   <script type="text/javascript" src="public/bower_components/vertical-timeline/js/main.js"></script>
